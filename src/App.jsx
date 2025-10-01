@@ -106,7 +106,7 @@ function AnimatedRoutes() {
 function App() {
   return (
     <LanguageProvider>
-      <Router>
+      <Router basename="/Form-Gym">
         <div className="App">
           <CursorGlow />
           <Navbar />
