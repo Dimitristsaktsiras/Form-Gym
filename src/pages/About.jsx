@@ -12,7 +12,7 @@ function About() {
         <div className="spotlight spotlight-2"></div>
         <div className="spotlight spotlight-3"></div>
         <div className="hero-content">
-          <img src="/Form-Gym/logo.png" alt="Form Gym" className="hero-logo" />
+          <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Form Gym" className="hero-logo" />
           <h1>{t.hero.title} <span className="highlight">{t.hero.titleHighlight}</span></h1>
           <p>{t.hero.subtitle}</p>
           <div className="social-links">
