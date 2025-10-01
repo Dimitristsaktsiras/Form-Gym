@@ -11,7 +11,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="logo-link">
-          <img src="/logo.png" alt="Form Gym Logo" className="logo-image" />
+          <img src={import.meta.env.BASE_URL + 'logo.png'} alt="Form Gym Logo" className="logo-image" />
         </Link>
         <ul className="nav-menu">
           <li>
